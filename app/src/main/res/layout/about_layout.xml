@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<include layout="@layout/titlebarlayout"></include>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="关于..."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_margin="10dp"
+		android:textSize="35sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="本应用是一个免费的来源项目。\n你可以在此找到本应用源码: \nhttps://github.com/GreatWYC/MTF"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="本应用使用作者自制的midi解析工具G_Midi,你可以在此获取它: \nhttps://github.com/GreatWYC/G_Midi"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="如果你也是一位midi音乐爱好者，亦或是仅仅想和群友划水，欢迎加入QQ群: 。\n当然,如果你发现了本应用的漏洞,也可以在此群汇报。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="祝，使用愉快。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="by GreatWYC"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+
+</LinearLayout>
+

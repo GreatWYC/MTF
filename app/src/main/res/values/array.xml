@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name = "instrument">
+		<item>Harp</item>
+		<item>Bass</item>
+		<item>Bell</item>
+		<item>Flute</item>
+		<item>Chime</item>
+		<item>Guitar</item>
+		<item>Xylophone</item>
+		<item>Iron Xylophone</item>
+		<item>Cow Bell</item>
+		<item>Didgeridoo</item>
+		<item>Bit</item>
+		<item>Banjo</item>
+		<item>Pling</item>
+		<item>Piano(Use Resource Pack)</item>
+	</string-array>
+</resources>

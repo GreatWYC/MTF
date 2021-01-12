@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/titlebarlayout"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="帮助..."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_margin="10dp"
+		android:textSize="35sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="常见问题..."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_margin="10dp"
+		android:textSize="20sp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="受限于移动端的性能问题,在手机版minecraft使用此App生成的音乐包可能难以让您获得最佳的游戏体验。特别注意的是,使用粒子特效或使用音效包生成的音乐包可能会对一些性能不佳的手机造成严重的卡顿,请谨慎使用！"
+		android:layout_margin="15dp"
+		android:textSize="17sp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="如果无法正常生成,多半原因是因为您的Midi不符合GM标准。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="关于自定义粒子功能..."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_margin="10dp"
+		android:textSize="20sp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="如果您了解mcbe的粒子系统,您可以修改或替换MTF/particle_pack中的默认粒子来实现新的粒子特效。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="15dp"/>
+
+</LinearLayout>
+

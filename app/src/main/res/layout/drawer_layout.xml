@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|left"
+	android:orientation="vertical"
+	android:id="@+id/mainLinearLayout1">
+
+	<include
+		layout="@layout/titlebarlayout"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="top"
+		android:padding="10dp"
+		android:text="Step1: Please enter the path of your midi file."/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/path"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Step2: Please enter your mcfunction name."
+		android:layout_marginTop="10dp"
+		android:padding="10dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/name"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Step3: Please choose a instrument for your music."
+		android:padding="10dp"
+		android:layout_marginTop="10dp"/>
+
+	<Spinner
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/instrument"
+		android:entries="@array/instrument"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Step4: Please enter a floating point number to determine the speed."
+		android:layout_marginTop="10dp"
+		android:padding="10dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/speed"
+		android:text="2500"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Step5: Using particle effect(experimental function)."
+		android:padding="10dp"
+		android:layout_marginTop="10dp"/>
+
+	<Switch
+		android:id="@+id/use_particle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:switchMinWidth="20dp"
+		android:textOn="on"
+		android:textOff="off"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Step6: Please click the button to spawn a mcfunction."
+		android:layout_marginTop="10dp"
+		android:padding="10dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Go!"
+		android:id="@+id/Go"
+		android:layout_marginLeft="10dp"/>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:id="@+id/mainProgressBar1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Please wait a second..."
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_margin="10dp"
+		android:id="@+id/waitText"/>
+
+</LinearLayout>
+
